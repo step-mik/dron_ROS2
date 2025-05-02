@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001828] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.002971] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.003174] (offboard) JobQueued: {'identifier': 'offboard', 'dependencies': OrderedDict([('px4_msgs', '/home/stepan/ws_ros2/install/px4_msgs')])}
+[0.003304] (offboard) JobStarted: {'identifier': 'offboard'}
+[0.095855] (-) TimerEvent: {}
+[0.196233] (-) TimerEvent: {}
+[0.297467] (-) TimerEvent: {}
+[0.398169] (-) TimerEvent: {}
+[0.499075] (-) TimerEvent: {}
+[0.600286] (-) TimerEvent: {}
+[0.701363] (-) TimerEvent: {}
+[0.802449] (-) TimerEvent: {}
+[0.903617] (-) TimerEvent: {}
+[1.004965] (-) TimerEvent: {}
+[1.106066] (-) TimerEvent: {}
+[1.207595] (-) TimerEvent: {}
+[1.308472] (-) TimerEvent: {}
+[1.409340] (-) TimerEvent: {}
+[1.509966] (-) TimerEvent: {}
+[1.610757] (-) TimerEvent: {}
+[1.711420] (-) TimerEvent: {}
+[1.812266] (-) TimerEvent: {}
+[1.913354] (-) TimerEvent: {}
+[2.014365] (-) TimerEvent: {}
+[2.116338] (-) TimerEvent: {}
+[2.218103] (-) TimerEvent: {}
+[2.318737] (-) TimerEvent: {}
+[2.420849] (-) TimerEvent: {}
+[2.521973] (-) TimerEvent: {}
+[2.622592] (-) TimerEvent: {}
+[2.723231] (-) TimerEvent: {}
+[2.824365] (-) TimerEvent: {}
+[2.925501] (-) TimerEvent: {}
+[3.026468] (-) TimerEvent: {}
+[3.127438] (-) TimerEvent: {}
+[3.228551] (-) TimerEvent: {}
+[3.329539] (-) TimerEvent: {}
+[3.430474] (-) TimerEvent: {}
+[3.531600] (-) TimerEvent: {}
+[3.632662] (-) TimerEvent: {}
+[3.734275] (-) TimerEvent: {}
+[3.834995] (-) TimerEvent: {}
+[3.936150] (-) TimerEvent: {}
+[4.038353] (-) TimerEvent: {}
+[4.139360] (-) TimerEvent: {}
+[4.240182] (-) TimerEvent: {}
+[4.340901] (-) TimerEvent: {}
+[4.441498] (-) TimerEvent: {}
+[4.542242] (-) TimerEvent: {}
+[4.567521] (offboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/offboard', 'build', '--build-base', '/home/stepan/ws_ros2/build/offboard/build', 'install', '--record', '/home/stepan/ws_ros2/build/offboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/stepan/ws_ros2/src/offboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'stepan', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/stepan', 'OLDPWD': '/home/stepan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '1548', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/stepan/ws_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'stepan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'stepan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/stepan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/stepan-Latitude-5410:@/tmp/.ICE-unix/1522,unix/stepan-Latitude-5410:/tmp/.ICE-unix/1522', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7ae4daf7_dbb6_44e0_bdcc_34114ec36829', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQG852', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/home/stepan/ws_ros2/install/px4_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/stepan/ws_ros2/build/offboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/stepan/ws_ros2/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages:/home/stepan/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages:/home/stepan/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'cs_CZ.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard'}, 'shell': False}
+[4.642606] (-) TimerEvent: {}
+[4.743253] (-) TimerEvent: {}
+[4.844078] (-) TimerEvent: {}
+[4.945018] (-) TimerEvent: {}
+[5.046018] (-) TimerEvent: {}
+[5.147565] (-) TimerEvent: {}
+[5.248629] (-) TimerEvent: {}
+[5.351388] (-) TimerEvent: {}
+[5.451914] (-) TimerEvent: {}
+[5.492941] (offboard) StderrLine: {'line': b"/home/stepan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.493558] (offboard) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.552268] (-) TimerEvent: {}
+[5.653443] (-) TimerEvent: {}
+[5.754929] (-) TimerEvent: {}
+[5.856215] (-) TimerEvent: {}
+[5.957150] (-) TimerEvent: {}
+[6.058467] (-) TimerEvent: {}
+[6.154628] (offboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.158614] (-) TimerEvent: {}
+[6.259244] (-) TimerEvent: {}
+[6.263975] (offboard) StdoutLine: {'line': b'writing ../../build/offboard/offboard.egg-info/PKG-INFO\n'}
+[6.265761] (offboard) StdoutLine: {'line': b'writing dependency_links to ../../build/offboard/offboard.egg-info/dependency_links.txt\n'}
+[6.266626] (offboard) StdoutLine: {'line': b'writing entry points to ../../build/offboard/offboard.egg-info/entry_points.txt\n'}
+[6.267380] (offboard) StdoutLine: {'line': b'writing requirements to ../../build/offboard/offboard.egg-info/requires.txt\n'}
+[6.268018] (offboard) StdoutLine: {'line': b'writing top-level names to ../../build/offboard/offboard.egg-info/top_level.txt\n'}
+[6.359356] (-) TimerEvent: {}
+[6.460110] (-) TimerEvent: {}
+[6.476554] (offboard) StdoutLine: {'line': b"reading manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'\n"}
+[6.483931] (offboard) StdoutLine: {'line': b"writing manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'\n"}
+[6.484727] (offboard) StdoutLine: {'line': b'running build\n'}
+[6.485953] (offboard) StdoutLine: {'line': b'running build_py\n'}
+[6.487604] (offboard) StdoutLine: {'line': b'copying offboard/__init__.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.488883] (offboard) StdoutLine: {'line': b'copying offboard/reset_offboard.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.490621] (offboard) StdoutLine: {'line': b'copying offboard/letova_mise.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.492336] (offboard) StdoutLine: {'line': b'copying offboard/offboard_mission.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.493618] (offboard) StdoutLine: {'line': b'copying offboard/pristani.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.494669] (offboard) StdoutLine: {'line': b'copying offboard/vzlet.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.496373] (offboard) StdoutLine: {'line': b'copying offboard/dopredu.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard\n'}
+[6.497806] (offboard) StdoutLine: {'line': b'running install\n'}
+[6.522635] (offboard) StdoutLine: {'line': b'running install_lib\n'}
+[6.560205] (-) TimerEvent: {}
+[6.629274] (offboard) StdoutLine: {'line': b'copying /home/stepan/ws_ros2/build/offboard/build/lib/offboard/letova_mise.py -> /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard\n'}
+[6.633647] (offboard) StdoutLine: {'line': b'byte-compiling /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard/letova_mise.py to letova_mise.cpython-310.pyc\n'}
+[6.637236] (offboard) StdoutLine: {'line': b'running install_data\n'}
+[6.638768] (offboard) StdoutLine: {'line': b'copying resource/offboard -> /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages\n'}
+[6.640655] (offboard) StdoutLine: {'line': b'copying package.xml -> /home/stepan/ws_ros2/install/offboard/share/offboard\n'}
+[6.641834] (offboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.660454] (-) TimerEvent: {}
+[6.750992] (offboard) StdoutLine: {'line': b"removing '/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.752733] (offboard) StdoutLine: {'line': b'Copying ../../build/offboard/offboard.egg-info to /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info\n'}
+[6.757376] (offboard) StdoutLine: {'line': b'running install_scripts\n'}
+[6.760662] (-) TimerEvent: {}
+[6.861102] (-) TimerEvent: {}
+[6.961645] (-) TimerEvent: {}
+[7.062436] (-) TimerEvent: {}
+[7.163356] (-) TimerEvent: {}
+[7.264816] (-) TimerEvent: {}
+[7.365776] (-) TimerEvent: {}
+[7.466489] (-) TimerEvent: {}
+[7.567571] (-) TimerEvent: {}
+[7.645489] (offboard) StdoutLine: {'line': b'Installing dopredu script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.646756] (offboard) StdoutLine: {'line': b'Installing letova_mise script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.647292] (offboard) StdoutLine: {'line': b'Installing offboard_mission script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.647671] (offboard) StdoutLine: {'line': b'Installing pristani script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.648611] (offboard) StdoutLine: {'line': b'Installing reset_offboard script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.649324] (offboard) StdoutLine: {'line': b'Installing vzlet script to /home/stepan/ws_ros2/install/offboard/lib/offboard\n'}
+[7.651053] (offboard) StdoutLine: {'line': b"writing list of installed files to '/home/stepan/ws_ros2/build/offboard/install.log'\n"}
+[7.668034] (-) TimerEvent: {}
+[7.769245] (-) TimerEvent: {}
+[7.846621] (offboard) CommandEnded: {'returncode': 0}
+[7.871469] (-) TimerEvent: {}
+[7.920102] (offboard) JobEnded: {'identifier': 'offboard', 'rc': 0}
+[7.923628] (-) EventReactorShutdown: {}

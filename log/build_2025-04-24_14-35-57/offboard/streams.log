@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/stepan/ws_ros2/build/offboard': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_srv_exec.dir/src/cpp/offboard_control_srv.cpp.o[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o[0m
+[0.170s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/stepan/ws_ros2/src/offboard/src/cpp/offboard_control.cpp: No such file or directory
+[0.170s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/stepan/ws_ros2/src/offboard/src/cpp/offboard_control_srv.cpp: No such file or directory
+[0.171s] compilation terminated.
+[0.171s] compilation terminated.
+[0.172s] gmake[2]: *** [CMakeFiles/offboard_cpp_exec.dir/build.make:76: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o] Error 1
+[0.172s] gmake[2]: *** [CMakeFiles/offboard_srv_exec.dir/build.make:76: CMakeFiles/offboard_srv_exec.dir/src/cpp/offboard_control_srv.cpp.o] Error 1
+[0.172s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/offboard_cpp_exec.dir/all] Error 2
+[0.172s] gmake[1]: *** Waiting for unfinished jobs....
+[0.172s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_srv_exec.dir/all] Error 2
+[0.173s] gmake: *** [Makefile:146: all] Error 2
+[0.176s] Invoked command in '/home/stepan/ws_ros2/build/offboard' returned '2': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8

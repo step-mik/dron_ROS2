@@ -1,0 +1,39 @@
+[2.955s] Invoking command in '/home/stepan/ws_ros2/src/offboard': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/stepan/ws_ros2/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/offboard build --build-base /home/stepan/ws_ros2/build/offboard/build install --record /home/stepan/ws_ros2/build/offboard/install.log --single-version-externally-managed install_data
+[3.491s] /home/stepan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.492s]   warnings.warn(msg)
+[3.826s] running egg_info
+[3.915s] writing ../../build/offboard/offboard.egg-info/PKG-INFO
+[3.917s] writing dependency_links to ../../build/offboard/offboard.egg-info/dependency_links.txt
+[3.917s] writing entry points to ../../build/offboard/offboard.egg-info/entry_points.txt
+[3.918s] writing requirements to ../../build/offboard/offboard.egg-info/requires.txt
+[3.918s] writing top-level names to ../../build/offboard/offboard.egg-info/top_level.txt
+[4.100s] reading manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+[4.107s] writing manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+[4.107s] running build
+[4.107s] running build_py
+[4.109s] copying offboard/__init__.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.110s] copying offboard/reset_offboard.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.111s] copying offboard/letova_mise.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.113s] copying offboard/offboard_mission.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.115s] copying offboard/pristani.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.116s] copying offboard/vzlet.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.116s] copying offboard/dopredu.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+[4.116s] running install
+[4.135s] running install_lib
+[4.212s] copying /home/stepan/ws_ros2/build/offboard/build/lib/offboard/reset_offboard.py -> /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard
+[4.215s] byte-compiling /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard/reset_offboard.py to reset_offboard.cpython-310.pyc
+[4.217s] running install_data
+[4.219s] copying resource/offboard -> /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages
+[4.220s] copying package.xml -> /home/stepan/ws_ros2/install/offboard/share/offboard
+[4.220s] running install_egg_info
+[4.285s] removing '/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[4.286s] Copying ../../build/offboard/offboard.egg-info to /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info
+[4.289s] running install_scripts
+[4.693s] Installing dopredu script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.693s] Installing letova_mise script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.694s] Installing offboard_mission script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.695s] Installing pristani script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.695s] Installing reset_offboard script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.695s] Installing vzlet script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+[4.696s] writing list of installed files to '/home/stepan/ws_ros2/build/offboard/install.log'
+[4.797s] Invoked command in '/home/stepan/ws_ros2/src/offboard' returned '0': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/stepan/ws_ros2/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/offboard build --build-base /home/stepan/ws_ros2/build/offboard/build install --record /home/stepan/ws_ros2/build/offboard/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/offboard/offboard.egg-info/PKG-INFO
+writing dependency_links to ../../build/offboard/offboard.egg-info/dependency_links.txt
+writing entry points to ../../build/offboard/offboard.egg-info/entry_points.txt
+writing requirements to ../../build/offboard/offboard.egg-info/requires.txt
+writing top-level names to ../../build/offboard/offboard.egg-info/top_level.txt
+reading manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+writing manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+running build
+running build_py
+copying offboard/__init__.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/reset_offboard.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/letova_mise.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/offboard_mission.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/pristani.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/vzlet.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+copying offboard/dopredu.py -> /home/stepan/ws_ros2/build/offboard/build/lib/offboard
+running install
+running install_lib
+copying /home/stepan/ws_ros2/build/offboard/build/lib/offboard/reset_offboard.py -> /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard
+copying /home/stepan/ws_ros2/build/offboard/build/lib/offboard/letova_mise.py -> /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard
+copying /home/stepan/ws_ros2/build/offboard/build/lib/offboard/dopredu.py -> /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard
+byte-compiling /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard/reset_offboard.py to reset_offboard.cpython-310.pyc
+byte-compiling /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard/letova_mise.py to letova_mise.cpython-310.pyc
+byte-compiling /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard/dopredu.py to dopredu.cpython-310.pyc
+running install_data
+copying resource/offboard -> /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages
+copying package.xml -> /home/stepan/ws_ros2/install/offboard/share/offboard
+running install_egg_info
+removing '/home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/offboard/offboard.egg-info to /home/stepan/ws_ros2/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dopredu script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+Installing letova_mise script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+Installing offboard_mission script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+Installing pristani script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+Installing reset_offboard script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+Installing vzlet script to /home/stepan/ws_ros2/install/offboard/lib/offboard
+writing list of installed files to '/home/stepan/ws_ros2/build/offboard/install.log'

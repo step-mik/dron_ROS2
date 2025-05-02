@@ -1,0 +1,17 @@
+/home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control
+/home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control_srv
+/home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/package_run_dependencies/offboard
+/home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/parent_prefix_path/offboard
+/home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.sh
+/home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.dsv
+/home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.sh
+/home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.dsv
+/home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.bash
+/home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.sh
+/home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.zsh
+/home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.dsv
+/home/stepan/ws_ros2/install/offboard/share/offboard/package.dsv
+/home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages/offboard
+/home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig.cmake
+/home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig-version.cmake
+/home/stepan/ws_ros2/install/offboard/share/offboard/package.xml

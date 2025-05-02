@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000680] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000703] (offboard) JobQueued: {'identifier': 'offboard', 'dependencies': OrderedDict([('px4_msgs', '/home/stepan/ws_ros2/install/px4_msgs')])}
+[0.000727] (offboard) JobStarted: {'identifier': 'offboard'}
+[0.013056] (offboard) JobProgress: {'identifier': 'offboard', 'progress': 'cmake'}
+[0.013867] (offboard) JobProgress: {'identifier': 'offboard', 'progress': 'build'}
+[0.014569] (offboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stepan/ws_ros2/build/offboard', '--', '-j8', '-l8'], 'cwd': '/home/stepan/ws_ros2/build/offboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stepan'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/stepan'), ('OLDPWD', '/home/stepan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '1502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stepan/ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stepan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stepan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/stepan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/stepan-Latitude-5410:@/tmp/.ICE-unix/1474,unix/stepan-Latitude-5410:/tmp/.ICE-unix/1474'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7b550b4_4934_42f1_a146_a57cd090f684'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.28EA52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/home/stepan/ws_ros2/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stepan/ws_ros2/build/offboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stepan/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/stepan/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble')]), 'shell': False}
+[0.055118] (offboard) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099697] (-) TimerEvent: {}
+[0.199933] (-) TimerEvent: {}
+[0.207569] (offboard) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.248199] (offboard) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.252033] (offboard) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.260833] (offboard) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.274514] (offboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.291569] (offboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300031] (-) TimerEvent: {}
+[0.338630] (offboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.340973] (offboard) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400145] (-) TimerEvent: {}
+[0.459822] (offboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500252] (-) TimerEvent: {}
+[0.530537] (offboard) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/stepan/ws_ros2/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.600331] (-) TimerEvent: {}
+[0.619660] (offboard) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.629582] (offboard) StdoutLine: {'line': b'-- Generating done\n'}
+[0.633380] (offboard) StdoutLine: {'line': b'-- Build files have been written to: /home/stepan/ws_ros2/build/offboard\n'}
+[0.666650] (offboard) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o\x1b[0m\n'}
+[0.666805] (offboard) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o\x1b[0m\n'}
+[0.700423] (-) TimerEvent: {}
+[0.800681] (-) TimerEvent: {}
+[0.901004] (-) TimerEvent: {}
+[1.001332] (-) TimerEvent: {}
+[1.101603] (-) TimerEvent: {}
+[1.201877] (-) TimerEvent: {}
+[1.302147] (-) TimerEvent: {}
+[1.402397] (-) TimerEvent: {}
+[1.502676] (-) TimerEvent: {}
+[1.602951] (-) TimerEvent: {}
+[1.703301] (-) TimerEvent: {}
+[1.803571] (-) TimerEvent: {}
+[1.903806] (-) TimerEvent: {}
+[2.004068] (-) TimerEvent: {}
+[2.104323] (-) TimerEvent: {}
+[2.204556] (-) TimerEvent: {}
+[2.304842] (-) TimerEvent: {}
+[2.405168] (-) TimerEvent: {}
+[2.505535] (-) TimerEvent: {}
+[2.605800] (-) TimerEvent: {}
+[2.706074] (-) TimerEvent: {}
+[2.806338] (-) TimerEvent: {}
+[2.906574] (-) TimerEvent: {}
+[3.006867] (-) TimerEvent: {}
+[3.107178] (-) TimerEvent: {}
+[3.207579] (-) TimerEvent: {}
+[3.307885] (-) TimerEvent: {}
+[3.408124] (-) TimerEvent: {}
+[3.508377] (-) TimerEvent: {}
+[3.608618] (-) TimerEvent: {}
+[3.708925] (-) TimerEvent: {}
+[3.809204] (-) TimerEvent: {}
+[3.909444] (-) TimerEvent: {}
+[4.009707] (-) TimerEvent: {}
+[4.109945] (-) TimerEvent: {}
+[4.210324] (-) TimerEvent: {}
+[4.310643] (-) TimerEvent: {}
+[4.410898] (-) TimerEvent: {}
+[4.511145] (-) TimerEvent: {}
+[4.611401] (-) TimerEvent: {}
+[4.711635] (-) TimerEvent: {}
+[4.811908] (-) TimerEvent: {}
+[4.912254] (-) TimerEvent: {}
+[5.012572] (-) TimerEvent: {}
+[5.112895] (-) TimerEvent: {}
+[5.213188] (-) TimerEvent: {}
+[5.313469] (-) TimerEvent: {}
+[5.413757] (-) TimerEvent: {}
+[5.514048] (-) TimerEvent: {}
+[5.614343] (-) TimerEvent: {}
+[5.714648] (-) TimerEvent: {}
+[5.814929] (-) TimerEvent: {}
+[5.915215] (-) TimerEvent: {}
+[6.015554] (-) TimerEvent: {}
+[6.115887] (-) TimerEvent: {}
+[6.216215] (-) TimerEvent: {}
+[6.316508] (-) TimerEvent: {}
+[6.416807] (-) TimerEvent: {}
+[6.517080] (-) TimerEvent: {}
+[6.617317] (-) TimerEvent: {}
+[6.717545] (-) TimerEvent: {}
+[6.817882] (-) TimerEvent: {}
+[6.918195] (-) TimerEvent: {}
+[7.018482] (-) TimerEvent: {}
+[7.118756] (-) TimerEvent: {}
+[7.219024] (-) TimerEvent: {}
+[7.246050] (offboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable offboard_cpp_exec\x1b[0m\n'}
+[7.302081] (offboard) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::arm()':\n"}
+[7.303346] (offboard) StderrLine: {'line': b"offboard_control_srv.cpp:(.text+0x288): multiple definition of `OffboardControl::arm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0xc): first defined here\n"}
+[7.303743] (offboard) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::disarm()':\n"}
+[7.303934] (offboard) StderrLine: {'line': b"offboard_control_srv.cpp:(.text+0x4a2): multiple definition of `OffboardControl::disarm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x22a): first defined here\n"}
+[7.304338] (offboard) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_offboard_control_mode()':\n"}
+[7.304565] (offboard) StderrLine: {'line': b"offboard_control_srv.cpp:(.text+0x6bc): multiple definition of `OffboardControl::publish_offboard_control_mode()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x448): first defined here\n"}
+[7.304915] (offboard) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_trajectory_setpoint()':\n"}
+[7.305177] (offboard) StderrLine: {'line': b"offboard_control_srv.cpp:(.text+0x7f2): multiple definition of `OffboardControl::publish_trajectory_setpoint()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x57e): first defined here\n"}
+[7.305713] (offboard) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `main':\n"}
+[7.306027] (offboard) StderrLine: {'line': b"offboard_control_srv.cpp:(.text+0x28ce): multiple definition of `main'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x865): first defined here\n"}
+[7.319122] (-) TimerEvent: {}
+[7.419417] (-) TimerEvent: {}
+[7.519741] (-) TimerEvent: {}
+[7.608916] (offboard) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.610218] (offboard) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/offboard_cpp_exec.dir/build.make:175: offboard_cpp_exec] Error 1\n'}
+[7.610433] (offboard) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/offboard_cpp_exec.dir/all] Error 2\n'}
+[7.610632] (offboard) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.612630] (offboard) CommandEnded: {'returncode': 2}
+[7.619822] (-) TimerEvent: {}
+[7.635894] (offboard) JobEnded: {'identifier': 'offboard', 'rc': 2}
+[7.646288] (-) EventReactorShutdown: {}

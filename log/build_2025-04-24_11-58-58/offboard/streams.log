@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/stepan/ws_ros2/build/offboard': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8
+[0.094s] [ 33%] [32m[1mLinking CXX executable offboard_cpp_exec[0m
+[0.164s] /usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::arm()':
+[0.168s] offboard_control_srv.cpp:(.text+0x288): multiple definition of `OffboardControl::arm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0xc): first defined here
+[0.169s] /usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::disarm()':
+[0.170s] offboard_control_srv.cpp:(.text+0x4a2): multiple definition of `OffboardControl::disarm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x22a): first defined here
+[0.170s] /usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_offboard_control_mode()':
+[0.171s] offboard_control_srv.cpp:(.text+0x6bc): multiple definition of `OffboardControl::publish_offboard_control_mode()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x448): first defined here
+[0.171s] /usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_trajectory_setpoint()':
+[0.172s] offboard_control_srv.cpp:(.text+0x7f2): multiple definition of `OffboardControl::publish_trajectory_setpoint()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x57e): first defined here
+[0.172s] /usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `main':
+[0.173s] offboard_control_srv.cpp:(.text+0x28ce): multiple definition of `main'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x865): first defined here
+[0.842s] collect2: error: ld returned 1 exit status
+[0.845s] gmake[2]: *** [CMakeFiles/offboard_cpp_exec.dir/build.make:175: offboard_cpp_exec] Error 1
+[0.845s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/offboard_cpp_exec.dir/all] Error 2
+[0.846s] gmake: *** [Makefile:146: all] Error 2
+[0.849s] Invoked command in '/home/stepan/ws_ros2/build/offboard' returned '2': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8

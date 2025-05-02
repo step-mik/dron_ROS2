@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/stepan/ws_ros2/build/offboard': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8
+[0.119s] [100%] Built target offboard_control
+[0.140s] Invoked command in '/home/stepan/ws_ros2/build/offboard' returned '0': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/stepan/ws_ros2/build/offboard -- -j8 -l8
+[0.158s] Invoking command in '/home/stepan/ws_ros2/build/offboard': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/stepan/ws_ros2/build/offboard
+[0.172s] -- Install configuration: ""
+[0.172s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control
+[0.172s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/lib/offboard/autonomous_mission.py
+[0.173s] -- Installing: /home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control.py
+[0.173s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/lib/offboard/autonomous_mission.py
+[0.173s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/package_run_dependencies/offboard
+[0.173s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/parent_prefix_path/offboard
+[0.173s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.dsv
+[0.174s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.sh
+[0.174s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.dsv
+[0.174s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.bash
+[0.174s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.sh
+[0.175s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.zsh
+[0.175s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.dsv
+[0.176s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/package.dsv
+[0.176s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages/offboard
+[0.176s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig.cmake
+[0.176s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig-version.cmake
+[0.176s] -- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/package.xml
+[0.180s] Invoked command in '/home/stepan/ws_ros2/build/offboard' returned '0': CMAKE_PREFIX_PATH=/home/stepan/ws_ros2/install/px4_msgs:/home/stepan/ws_ros2/install/px4_ros_com:/home/stepan/ws_ros2/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/stepan/ws_ros2/install/px4_msgs/lib:/home/stepan/ws_ros2/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/stepan/ws_ros2/build/offboard

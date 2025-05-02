@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>offboard</name>
+  <version>0.0.1</version>
+  <description>Offboard control node (C++ + Python)</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Run-time dependencies -->
+  <depend>rclcpp</depend>         <!-- C++ ROS 2 -->
+  <depend>rclpy</depend>          <!-- Python ROS 2 -->
+  <depend>px4_msgs</depend>
+
+  <export>
+    <!-- Necháme jako ament_cmake kvůli C++, ale Python stejně funguje -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

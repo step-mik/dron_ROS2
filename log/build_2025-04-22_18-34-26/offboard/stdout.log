@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found px4_msgs: 2.0.1 (/home/stepan/ws_ros2/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stepan/ws_ros2/build/offboard
+[ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/cpp/offboard_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable offboard_control[0m
+[100%] Built target offboard_control
+-- Install configuration: ""
+-- Installing: /home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control
+-- Set runtime path of "/home/stepan/ws_ros2/install/offboard/lib/offboard/offboard_control" to ""
+-- Installing: /home/stepan/ws_ros2/install/offboard/lib/offboard/autonomous_mission.py
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/package_run_dependencies/offboard
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/parent_prefix_path/offboard
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.sh
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.sh
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/offboard/environment/path.dsv
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.bash
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.sh
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.zsh
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/offboard/local_setup.dsv
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/offboard/package.dsv
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/ament_index/resource_index/packages/offboard
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig.cmake
+-- Up-to-date: /home/stepan/ws_ros2/install/offboard/share/offboard/cmake/offboardConfig-version.cmake
+-- Installing: /home/stepan/ws_ros2/install/offboard/share/offboard/package.xml

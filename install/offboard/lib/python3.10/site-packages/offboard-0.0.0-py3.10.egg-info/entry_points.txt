@@ -1,0 +1,8 @@
+[console_scripts]
+arm = offboard.arm:main
+dopredu = offboard.dopredu:main
+letova_mise = offboard.letova_mise:main
+offboard_mission = offboard.offboard_mission:main
+pristani = offboard.pristani:main
+reset_offboard = offboard.reset_offboard:main
+vzlet = offboard.vzlet:main

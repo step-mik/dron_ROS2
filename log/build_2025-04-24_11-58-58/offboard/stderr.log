@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::arm()':
+offboard_control_srv.cpp:(.text+0x288): multiple definition of `OffboardControl::arm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0xc): first defined here
+/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::disarm()':
+offboard_control_srv.cpp:(.text+0x4a2): multiple definition of `OffboardControl::disarm()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x22a): first defined here
+/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_offboard_control_mode()':
+offboard_control_srv.cpp:(.text+0x6bc): multiple definition of `OffboardControl::publish_offboard_control_mode()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x448): first defined here
+/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `OffboardControl::publish_trajectory_setpoint()':
+offboard_control_srv.cpp:(.text+0x7f2): multiple definition of `OffboardControl::publish_trajectory_setpoint()'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x57e): first defined here
+/usr/bin/ld: CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control_srv.cpp.o: in function `main':
+offboard_control_srv.cpp:(.text+0x28ce): multiple definition of `main'; CMakeFiles/offboard_cpp_exec.dir/src/cpp/offboard_control.cpp.o:offboard_control.cpp:(.text+0x865): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/offboard_cpp_exec.dir/build.make:175: offboard_cpp_exec] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/offboard_cpp_exec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
