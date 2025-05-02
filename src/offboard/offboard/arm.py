@@ -11,7 +11,7 @@ class ArmNode(Node):
         # Vytvoření publisheru pro příkazy k motorům
         self.command_pub = self.create_publisher(VehicleCommand, '/fmu/in/vehicle_command', 10)
 
-        # Timer pro opakování příkazu (každých 1 sekundu)
+        # Timer pro opakování příkazu (každých 1 sekundu) ano
         self.timer = self.create_timer(1.0, self.timer_callback)
 
         self.counter = 0
